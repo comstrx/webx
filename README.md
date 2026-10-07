@@ -1,9 +1,21 @@
-# ✨ Webx
+# ✨ WebX
 
-Rust web framework for building high-performance APIs, services, and server-side applications.
+`webx` is an experimental framework foundation for creating fast, and production-minded client sites and admin panels.
 
-`webx` is an experimental Rust framework foundation for creating fast, scalable, and production-minded web systems with a clean developer experience.
+## Community
+
+- [Issues](https://github.com/comstrx/webx/issues)
+- [Discussions](https://github.com/comstrx/webx/discussions)
+- [Contributing](https://github.com/comstrx/webx/blob/main/CONTRIBUTING.md)
+- [Security](https://github.com/comstrx/webx/blob/main/SECURITY.md)
+- [Support](https://github.com/comstrx/webx/blob/main/SUPPORT.md)
 
 ## License
 
-See [LICENSE](./LICENSE). Commercial usage outside the license terms requires written permission.
+<code>webx</code> is dual-licensed under either
+[MIT](https://github.com/comstrx/webx/blob/main/LICENSE-MIT) or
+[Apache-2.0](https://github.com/comstrx/webx/blob/main/LICENSE-APACHE), at your option.
+
+Unless you explicitly state otherwise, any contribution intentionally submitted
+for inclusion in this work by you, as defined in the Apache-2.0 license, shall be
+dual-licensed as above, without any additional terms or conditions.
