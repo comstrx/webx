@@ -21,7 +21,7 @@ export default {
         image: null,
         twitter: null,
         robots: { allow: ["/"], disallow: [] },
-        sitemap: [],
+        sitemap: ["hello"],
         verification: {},
     },
 } satisfies SiteConfig["contents"];
