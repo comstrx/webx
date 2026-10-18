@@ -5,7 +5,7 @@
     "": {
       "name": "web",
       "dependencies": {
-        "engine": "git+https://github.com/comstrx/bunx.git#v0.1.1",
+        "engine": "git+https://github.com/comstrx/bunx.git#v0.1.2",
         "next": "16.4.0",
         "react": "19.3.0",
         "react-dom": "19.3.0",
@@ -186,7 +186,7 @@
 
     "detect-libc": ["detect-libc@2.1.2", "", {}, "sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ=="],
 
-    "engine": ["engine@github:comstrx/bunx#79b0b2d", { "dependencies": { "lucide-static": "1.52.0", "mitata": "1.0.34", "subset-font": "2.9.0", "zod": "4.6.5", "zustand": "5.0.15" }, "peerDependencies": { "react": ">=19.2.3" } }, "comstrx-bunx-79b0b2d", "sha512-QzsnsO2FUS+NWGmVLHGzYiw98qiaU3wLt9YZz5m1Sj4S1/HlncEHb7jYtFiDoHPtzyFCvvfRphq7a10fB+gtOQ=="],
+    "engine": ["engine@github:comstrx/bunx#46a2c27", { "dependencies": { "lucide-static": "1.52.0", "mitata": "1.0.34", "subset-font": "2.9.0", "zod": "4.6.5", "zustand": "5.0.15" }, "peerDependencies": { "react": ">=19.2.3" } }, "comstrx-bunx-46a2c27", "sha512-y38IFFjktGNr/RtbYK1o2xAJ35abYh5AkzLSNZnbfOMQleYxNHikqr9vT36rcy1FQVK3E2go3XDPP6W7fkU8ag=="],
 
     "fontverter": ["fontverter@2.0.0", "", { "dependencies": { "wawoff2": "^2.0.0", "woff2sfnt-sfnt2woff": "^1.0.0" } }, "sha512-DFVX5hvXuhi1Jven1tbpebYTCT9XYnvx6/Z+HFUPb7ZRMCW+pj2clU9VMhoTPgWKPhAs7JJDSk3CW1jNUvKCZQ=="],
 

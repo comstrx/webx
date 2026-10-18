@@ -2,6 +2,11 @@
 
 Every release of WebX.
 
+## v0.1.2 — 2026-10-18
+
+- The client runtime (session, signals and the access guard) loads only when the spec declares ports, access, signals, a session cookie or realtime; a static panel without them ships none of it.
+- `bun run build --all` builds every installed spec, so both deliveries are gated; the theme stylesheet comes from the engine.
+
 ## v0.1.1 — 2026-10-17
 
 - A spec with `settings.delivery: "static"` builds a static export: the server-only files (the proxy, the API routes, the sitemap, the `.well-known` route) carry `.server.ts` and leave that build, every locale and screen is pre-rendered, `/` enters the default locale, robots stays static and browser beacons stay quiet.

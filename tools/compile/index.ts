@@ -9,6 +9,7 @@ import { type Files, featureEntry, featureFacts, iconFont, registryModule } from
 import { emojis, iconAliases, iconNames } from "engine/world";
 import { root, tools, writeFile } from "../core/index.ts";
 
+import { needsRuntime } from "./runtime.ts";
 import { themeCss } from "./theme.ts";
 
 type Reach = { path: string; features: readonly string[] };
@@ -63,6 +64,7 @@ export const compileSpec = tools.build(import.meta.url, {
         const ownedBy = ( owner: string ) => spec.schema.features.filter(( name ) => facts[name]?.owner === owner);
         const site = spec.config.content.url;
         const origins = connectionOrigins(spec.config.api);
+        const runtime = needsRuntime(spec.schema.screens, spec.schema.features, facts, config);
 
         const exported = spec.config.settings.delivery === "static";
         const known = wellKnown(assets);
@@ -85,6 +87,7 @@ export const compileSpec = tools.build(import.meta.url, {
             },
             meta: {
                 delivery: spec.config.settings.delivery,
+                runtime,
                 secure: typeof site === "string" && site.startsWith("https://"),
                 insecure: spec.config.insecure,
                 media: unique([...origins, ...spec.config.settings.mediaOrigins]),
