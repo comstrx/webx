@@ -18,7 +18,7 @@
     "bench": "set -e; for file in benches/*.bench.ts; do bun \"$file\"; done"
   },
   "dependencies": {
-    "engine": "git+https://github.com/comstrx/bunx.git#v0.1.2",
+    "engine": "git+https://github.com/comstrx/bunx.git#v0.1.3",
     "next": "16.4.0",
     "react": "19.3.0",
     "react-dom": "19.3.0",

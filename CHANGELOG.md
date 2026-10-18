@@ -2,6 +2,10 @@
 
 Every release of WebX.
 
+## v0.1.3 — 2026-10-18
+
+- The README's Download block: `webx-installer.sh` / `.ps1` unpack the latest release's source, or clone and run `bun run dev`.
+
 ## v0.1.2 — 2026-10-18
 
 - The client runtime (session, signals and the access guard) loads only when the spec declares ports, access, signals, a session cookie or realtime; a static panel without them ships none of it.
